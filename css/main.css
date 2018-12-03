@@ -26,23 +26,20 @@ header {
 }
 
 .togglenav {
-  width: 5%;
+  width: 8%;
   position: absolute;
-  right: 35px;
+  right: 32px;
   top: 110px;
-}
-
-#menu {
-  overflow: hidden;
-}
-
-.togglenav:hover {
-
 }
 
 .search-engine {
   position: absolute;
   top: 100px;
+  left: 10px;
+}
+
+.magnifier {
+  width: 10%;
 }
 
 .img-flex {
@@ -64,8 +61,9 @@ h1 {
   font-size: 2.5rem;
   line-height: 1.5;
   text-align: center;
-  margin-top: 0;
+  margin: 0;
   padding-top: .3em;
+  padding-bottom: 2em;
 }
 
 ul li {
@@ -78,23 +76,50 @@ ul {
   display: block;
 }
 
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: none;
+}
+
+.nav a {
+  display: block;
+  padding: .8em;
+  text-align: right;
+  padding-right: 2em;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+}
+
 a {
   font-family: Lato, sans-serif;
   text-decoration-line: none;
   color: #fff;
 }
 
-li a:hover {
-  background-color: #c6c6c6;
+.nav a:hover {
+  background-color: #666;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
 }
 
 li {
   padding: 0;
-  display: inline-block;
 }
 
 nav {
-  display: inline-block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -114,10 +139,26 @@ p {
   margin-top: .3em;
 }
 
+.display {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.display figure {
+  margin: 0;
+  width: 50%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+}
 
 figcaption {
   font-family: Lato,sans-serif;
+  font-size: .8rem;
+}
+
+.product-description {
+  font-family: Lato, sans-serif;
   font-size: .8rem;
 }
 
@@ -125,16 +166,30 @@ h3 {
   font-size: .8rem;
 }
 
+.hours {
+  font-size: 2rem;
+}
 .social-media-icons {
-  max-width: 10%;
+  max-width: 15%;
   display: inline-block;
   align-content: space-between;
 }
 
 .social {
-  margin-left: auto;
+  display: block;
+  margin-left: 5em;
   margin-right: auto;
 }
+
+.social-icons {
+  margin-left: 2em;
+}
+
+footer {
+  padding-top: 2em;
+}
+
+
 
 
 
