@@ -52,6 +52,11 @@ header {
   max-width: 100%;
 }
 
+.intro {
+  font-family: Dancing Script, cursive;
+  font-size: 1.5rem;
+}
+
 .icons {
   width: 25%;
 }
@@ -133,10 +138,45 @@ h2 {
 }
 
 p {
-  font-family: Cookie, cursive;
-  font-size: 1.2rem;
+  font-family: Lato, sans-serif;
+  font-size: 1rem;
   text-align: center;
   margin-top: .3em;
+}
+
+.presenting {
+  padding: .8em;
+}
+
+.btn {
+  color: #fff;
+  padding: 1.2em;
+  background-color: rgba(2, 0, 0, 0.6);
+  position: absolute;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+.product {
+  position: relative;
+}
+
+.btn1 {
+  top: 220px;
+  right: 100px;
+  z-index: 1000;
+}
+
+.btn2 {
+  top: 100px;
+  right: 100px;
+}
+
+.btn3 {
+  top: 460px;
+  right: 100px;
 }
 
 .display {
@@ -160,6 +200,7 @@ figcaption {
 .product-description {
   font-family: Lato, sans-serif;
   font-size: .8rem;
+  padding: .8em;
 }
 
 h3 {
@@ -167,30 +208,34 @@ h3 {
 }
 
 .hours {
+  font-family: Dancing Script, cursive;
   font-size: 2rem;
 }
 .social-media-icons {
-  max-width: 15%;
+  width: 2em;
   display: inline-block;
   align-content: space-between;
 }
 
 .social {
   display: block;
-  margin-left: 5em;
+  max-width: 10em;
+  margin-left: auto;
   margin-right: auto;
 }
 
 .social-icons {
-  margin-left: 2em;
+  margin-left: 1em;
+  display: inline-block;
 }
 
-footer {
-  padding-top: 2em;
+.social-media-icons {
+  margin-right: .5em;
 }
 
-
-
+.social-icons li {
+  display: inline-block;
+}
 
 
 
