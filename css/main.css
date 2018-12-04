@@ -11,6 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font: normal 100%/1.3 Lato, sans-serif;
+  background-color: #d8dde3;
 }
 
 *, *::before, *::after {
@@ -22,7 +23,7 @@ body {
 }
 
 header {
-  background-color: #6666;
+  background-color: #bb8f88;
 }
 
 .togglenav {
@@ -39,7 +40,7 @@ header {
 }
 
 .magnifier {
-  width: 10%;
+  width: 5%;
 }
 
 .img-flex {
@@ -63,6 +64,7 @@ header {
 
 h1 {
   font-family: Dancing script, cursive;
+  color: #271816;
   font-size: 2.5rem;
   line-height: 1.5;
   text-align: center;
@@ -112,7 +114,7 @@ a {
 }
 
 .nav a:hover {
-  background-color: #666;
+  background-color: #a47479;
 }
 
 .nav-check {
@@ -156,7 +158,7 @@ p {
 }
 
 .btn:hover {
-  background-color: #333;
+  background-color: #a47479;
 }
 
 .product {
@@ -193,7 +195,7 @@ p {
 }
 
 figure:hover {
-  background-color: rgba(2, 0, 0, 0.2);
+  background-color: rgba(79, 0, 0, 0.2);
 }
 
 figcaption {
@@ -213,6 +215,7 @@ h3 {
 
 .hours {
   font-family: Dancing Script, cursive;
+  color: #271816;
   font-size: 2rem;
 }
 .social-media-icons {
@@ -326,12 +329,31 @@ footer {
     margin-left: 2em;
   }
 
+  h1 {
+    padding-top: .9em;
+  }
+
+  .togglenav {
+    width: 5%;
+    top: 150px;
+  }
+
   li {
     display: inline-block;
   }
 
+
   footer {
     padding-left: 12em;
+  }
+
+  li .menu {
+    padding-left: 3.8em;
+    padding-right: 3.8em;
+  }
+
+  .search-engine {
+    top: 150px;
   }
 
 }
