@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: normal 100%/1.3 Georgia, serif;
+  font: normal 100%/1.3 Lato, sans-serif;
 }
 
 *, *::before, *::after {
@@ -192,6 +192,10 @@ p {
   padding-left: 2em;
 }
 
+figure:hover {
+  background-color: rgba(2, 0, 0, 0.2);
+}
+
 figcaption {
   font-family: Lato,sans-serif;
   font-size: .8rem;
@@ -237,6 +241,10 @@ h3 {
   display: inline-block;
 }
 
+footer {
+  padding-left: 5em;
+  padding-bottom: 2em;
+}
 
 
 @media only screen and (min-width: 25em) {
@@ -244,6 +252,32 @@ h3 {
   html {
     font-size: 100%;
     line-height: 1.3;
+  }
+
+  .btn1 {
+    top: 250px;
+    right: 140px;
+    z-index: 1000;
+  }
+
+  .btn2 {
+    top: 120px;
+    right: 140px;
+  }
+
+  .btn3 {
+    top: 530px;
+    right: 140px;
+  }
+
+  footer {
+    padding-left: 7em;
+  }
+
+  .display figure {
+    margin: 0;
+    width: 50%;
+    padding-right: 0;
   }
 
 }
@@ -256,9 +290,48 @@ h3 {
     line-height: 1.4;
   }
 
-  .img-flex2 {
-    display: flex;
-    flex-wrap: wrap;
+  .nav a {
+    display: inline-block;
+    padding: .8em;
+    padding-right: 2em;
+  }
+
+  .nav-check:checked ~ .nav {
+    display: inline-block;
+  }
+
+  .btn1 {
+    top: 340px;
+    right: 240px;
+    z-index: 1000;
+  }
+
+  .btn2 {
+    top: 90px;
+    right: 410px;
+    font-size: .8rem;
+    padding: .8em;
+  }
+
+  .btn3 {
+    top: 70px;
+    right: 120px;
+    font-size: .8rem;
+    padding: .8em;
+  }
+
+  .products {
+    display: inline-block;
+    width: 40%;
+    margin-left: 2em;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  footer {
+    padding-left: 12em;
   }
 
 }
