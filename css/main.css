@@ -365,6 +365,70 @@ footer {
     line-height: 1.5;
   }
 
+  .nav a {
+    display: inline-block;
+    padding: .8em;
+    padding-right: 2em;
+  }
+
+  .nav-check:checked ~ .nav {
+    display: inline-block;
+  }
+
+  .display {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .display figure {
+    margin: 0;
+    width: 25%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+  }
+
+  .btn1 {
+    top: 420px;
+    right: 390px;
+    z-index: 1000;
+    padding: 2em;
+    font-size: 1.2rem;
+  }
+
+  .btn2 {
+    top: 140px;
+    right: 680px;
+    font-size: 1rem;
+    padding: 1em;
+  }
+
+  .btn3 {
+    top: 110px;
+    right: 240px;
+    font-size: 1rem;
+    padding: 1em;
+  }
+
+  .products {
+    display: inline-block;
+    width: 40%;
+    margin-left: 2em;
+  }
+
+  li .menu {
+    padding-left: 6em;
+    padding-right: 6em;
+  }
+
+  h3 {
+    font-size: 120%;
+  }
+
+  footer {
+    padding-left: 20em;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
