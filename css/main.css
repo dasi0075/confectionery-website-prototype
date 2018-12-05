@@ -397,23 +397,28 @@ footer {
   }
 
   .btn2 {
-    top: 140px;
-    right: 680px;
+    top: 160px;
+    right: 640px;
     font-size: 1rem;
     padding: 1em;
   }
 
   .btn3 {
-    top: 110px;
-    right: 240px;
+    top: 130px;
+    right: 160px;
     font-size: 1rem;
     padding: 1em;
   }
 
   .products {
     display: inline-block;
-    width: 40%;
+    width: 45%;
     margin-left: 2em;
+  }
+
+  .togglenav {
+    width: 4%;
+    top: 150px;
   }
 
   li .menu {
@@ -435,6 +440,84 @@ footer {
 
   html {
     font-size: 130%;
+  }
+
+  .nav a {
+    display: inline-block;
+    padding: .8em;
+    padding-right: 2em;
+  }
+
+  .nav-check:checked ~ .nav {
+    display: inline-block;
+  }
+
+  .display {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .search-engine {
+    padding-left: 3em;
+  }
+
+  .display figure {
+    margin: 0;
+    width: 16%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+  }
+
+  .btn1 {
+    top: 620px;
+    right: 590px;
+    z-index: 1000;
+    padding: 2em;
+    font-size: 1.2rem;
+  }
+
+  .btn2 {
+    top: 230px;
+    right: 1000px;
+    font-size: 1rem;
+    padding: 1em;
+  }
+
+  .btn3 {
+    top: 190px;
+    right: 300px;
+    font-size: 1rem;
+    padding: 1em;
+  }
+
+  .products {
+    display: inline-block;
+    width: 45%;
+    margin-left: 2em;
+  }
+
+  .togglenav {
+    width: 3%;
+    top: 150px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    padding-bottom: 1em;
+  }
+
+  li .menu {
+    padding-left: 9em;
+    padding-right: 9em;
+  }
+
+  h3 {
+    font-size: 120%;
+  }
+
+  footer {
+    padding-left: 30em;
   }
 
 }
