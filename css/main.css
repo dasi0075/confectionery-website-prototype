@@ -433,8 +433,27 @@ footer {
     top: 150px;
   }
 
+  .nav-label,
+  .nav-check {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  h1 {
+    padding-bottom: 1em;
+  }
+
+  .search-engine {
+    position: absolute;
+    top: 120px;
+    left: 10px;
+  }
+
   li .menu {
-    padding-left: 6em;
+    padding-left: 7em;
     padding-right: 6em;
   }
 
