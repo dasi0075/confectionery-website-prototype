@@ -288,22 +288,6 @@ footer {
     background-color: #a47479;
   }
 
-  .btn1 {
-    top: 250px;
-    right: 140px;
-    z-index: 1000;
-  }
-
-  .btn2 {
-    top: 120px;
-    right: 140px;
-  }
-
-  .btn3 {
-    top: 530px;
-    right: 140px;
-  }
-
   footer {
     padding-left: 7em;
   }
@@ -337,30 +321,21 @@ footer {
     display: inline-block;
   }
 
-  .btn1 {
-    top: 340px;
-    right: 240px;
-    z-index: 1000;
-  }
 
   .btn2 {
-    top: 90px;
-    right: 410px;
     font-size: .8rem;
     padding: .8em;
   }
 
   .btn3 {
-    top: 70px;
-    right: 120px;
     font-size: .8rem;
     padding: .8em;
   }
 
   .products {
-    display: inline-block;
-    width: 40%;
+    display: flex;
     margin-left: 2em;
+    margin-right: 2em;
   }
 
   h1 {
@@ -522,40 +497,26 @@ footer {
   }
 
   .display figure {
-    margin: 0;
-    width: 16%;
     padding-top: 2em;
     padding-bottom: 2em;
     padding-left: 2em;
   }
 
   .btn1 {
-    top: 620px;
-    right: 590px;
-    z-index: 1000;
     padding: 2em;
     font-size: 1.2rem;
   }
 
   .btn2 {
-    top: 230px;
-    right: 1000px;
     font-size: 1rem;
     padding: 1em;
   }
 
   .btn3 {
-    top: 190px;
-    right: 300px;
     font-size: 1rem;
     padding: 1em;
   }
 
-  .products {
-    display: inline-block;
-    width: 45%;
-    margin-left: 2em;
-  }
 
   .togglenav {
     width: 3%;
