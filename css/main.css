@@ -116,7 +116,6 @@ nav:hover {
 a {
   font-family: Lato, sans-serif;
   list-style-type: none;
-  text-decoration-line: none;
   text-decoration: none;
   color: #fff;
 }
@@ -133,7 +132,6 @@ a {
 li {
   padding: 0;
   list-style-type: none;
-  text-decoration-line: none;
   text-decoration: none;
 }
 
@@ -325,7 +323,6 @@ footer {
     display: block;
     text-align: center;
   }
-
 
   .btn2 {
     font-size: .8rem;
@@ -521,7 +518,6 @@ footer {
     font-size: 1rem;
     padding: 1em;
   }
-
 
   .togglenav {
     width: 3%;
