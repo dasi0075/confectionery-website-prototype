@@ -228,6 +228,10 @@ figure:hover {
   background-color: #a47472;
 }
 
+figure {
+  text-align: center;
+}
+
 figcaption {
   font-family: Lato, sans-serif;
   font-size: .8rem;
@@ -318,7 +322,8 @@ footer {
   }
 
   .nav-check:checked ~ .nav {
-    display: inline-block;
+    display: block;
+    text-align: center;
   }
 
 
