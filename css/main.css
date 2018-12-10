@@ -157,7 +157,18 @@ p {
   margin-top: .3em;
 }
 
-.presenting {
+.banner {
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p .presenting {
   padding: .8em;
 }
 
@@ -165,34 +176,35 @@ p {
   color: #fff;
   padding: 1.2em;
   background-color: rgba(0, 0, 0, .5);
-  position: absolute;
   list-style-type: none;
   text-decoration: none;
   text-decoration-line: none;
+}
+
+.product-one {
+  position: relative;
+}
+
+.product-two {
+  position: relative;
 }
 
 .btn:hover {
   background-color: #a47479;
 }
 
-.product {
-  position: relative;
-}
-
-.btn1 {
-  top: 210px;
-  right: 100px;
-  z-index: 1000;
-}
-
 .btn2 {
-  top: 80px;
-  right: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .btn3 {
-  top: 420px;
-  right: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .display {
