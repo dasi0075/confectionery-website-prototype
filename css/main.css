@@ -403,23 +403,16 @@ footer {
   }
 
   .btn1 {
-    top: 420px;
-    right: 390px;
-    z-index: 1000;
     padding: 2em;
     font-size: 1.2rem;
   }
 
   .btn2 {
-    top: 130px;
-    right: 660px;
     font-size: 1rem;
     padding: 1em;
   }
 
   .btn3 {
-    top: 130px;
-    right: 160px;
     font-size: 1rem;
     padding: 1em;
   }
