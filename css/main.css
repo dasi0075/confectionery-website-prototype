@@ -417,10 +417,10 @@ footer {
     padding: 1em;
   }
 
-  .products {
-    display: inline-block;
+  .product {
+    display: flex;
+    flex-wrap: wrap;
     width: 45%;
-    margin-left: 2em;
   }
 
   .togglenav {
